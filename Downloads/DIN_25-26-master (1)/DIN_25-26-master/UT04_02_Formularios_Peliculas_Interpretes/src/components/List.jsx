@@ -12,7 +12,7 @@ function List({ foto, nombre, esNota10, esFavorito, onToggleFavorito, children }
           loading="lazy"
           className="w-full h-full object-cover"
         />
-        <figcaption className="sr-only">{children}</figcaption>
+        {/* <figcaption className="sr-only">{children}</figcaption> */}
 
 {/* Botón de favorito */}
       {onToggleFavorito && (
